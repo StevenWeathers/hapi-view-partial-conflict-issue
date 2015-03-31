@@ -1,9 +1,10 @@
-var Path = require('path');
+var Handlebars = require('handlebars');
+
 exports.register = function (server, options, next) {
 
     	server.views({
 		    engines: {
-		        html: require('handlebars')
+		        html: { module: Handlebars.create() }
 		    },
 		    relativeTo: __dirname,
 		    path: './views',
