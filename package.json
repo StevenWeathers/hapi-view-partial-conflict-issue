@@ -1,0 +1,15 @@
+{
+  "name": "hapi-views-issue",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Steven Weathers <hello@stevenweathers.com> (http://stevenweathers.com/)",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "hapi": "8.4.0",
+    "handlebars": "~3.0.1"
+  }
+}
